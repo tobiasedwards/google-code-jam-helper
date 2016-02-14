@@ -14,7 +14,7 @@ function loadLines(callback) {
   });
 }
 
-exports = function (solution) {
+function gcj(solution) {
   loadLines(function (lines) {
     var input = new GcjInput(lines);
     var numCases = input.getInt();
@@ -24,4 +24,6 @@ exports = function (solution) {
       console.log(output);
     }
   });
-};
+}
+
+exports = gcj;
