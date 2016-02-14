@@ -1,0 +1,25 @@
+{
+  "name": "google-code-jam-helper",
+  "version": "1.0.0",
+  "description": "An npm module to deal with the repetitive input/output elements of solving Google Code Jam problems in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasedwards/google-code-jam-helper.git"
+  },
+  "keywords": [
+    "google",
+    "code",
+    "jam",
+    "codejam"
+  ],
+  "author": "Tobias Edwards <tobias.w.edwards@gmail.com> (http://tobiasedwards.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobiasedwards/google-code-jam-helper/issues"
+  },
+  "homepage": "https://github.com/tobiasedwards/google-code-jam-helper#readme"
+}
