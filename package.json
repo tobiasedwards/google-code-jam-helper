@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/tobiasedwards/google-code-jam-helper/issues"
   },
-  "homepage": "https://github.com/tobiasedwards/google-code-jam-helper#readme"
+  "homepage": "https://github.com/tobiasedwards/google-code-jam-helper#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
