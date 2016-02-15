@@ -1,5 +1,5 @@
 var readline = require('readline');
-var GcjInput = require('lib/gcj-input.js');
+var GcjInput = require('lib/gcj-input');
 
 function loadLines(callback) {
   var rl = readline.createInterface({ input: process.stdin });
