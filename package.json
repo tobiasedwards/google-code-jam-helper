@@ -4,9 +4,10 @@
   "description": "An npm module to deal with the repetitive input/output elements of solving Google Code Jam problems in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run jscs && npm run lint",
+    "test": "npm run lint && npm run jscs && npm run unit",
+    "lint": "jshint",
     "jscs": "jscs . --preset=airbnb",
-    "lint": "jshint"
+    "unit": "mocha test"
   },
   "repository": {
     "type": "git",
