@@ -14,7 +14,7 @@ function loadLines(input, callback) {
   });
 }
 
-var gcj = function (solution, options) {
+var gcj = function (solution, options, done) {
   options = options || {};
   options.input = options.input || process.stdin;
   options.output = options.output || process.stdout;
@@ -27,7 +27,10 @@ var gcj = function (solution, options) {
       var output = 'Case #' + (i + 1) + ': ' + solution(input) + '\n';
       options.output.write(output);
     }
+
+    options.output.close();
+    if (done !== null) done();
   });
 };
 
-exports = gcj;
+module.exports = gcj;
