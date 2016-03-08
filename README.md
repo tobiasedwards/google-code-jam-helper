@@ -3,6 +3,14 @@ An npm module to deal with the repetitive input/output elements of solving Googl
 
 Google Code Jam problems involve reading in multiple lines of input for a number of cases for any given problem. This module provides an easy interface for dealing with this input and output in Javascript, an otherwise repetitive task.
 
+## Installation
+
+Install this package by running
+
+```
+npm i google-code-jam-helper
+```
+
 ## Usage
 
 This module provides a `gcj()` function which takes in a `solution` function. The `solution` function is then given an instance of the `GcjInput` class used to access the input for each case.
@@ -85,10 +93,20 @@ The line is expected to contain 1 or more ints separated by a space.
 #### `GcjInput#consumeLine()`
 `consumeLine` consumes the current line.
 
+## Contribution
+
+Feel free to file feature requests or submit a pull request.
+
+To run unit tests with mocha and lint with JSCS and JSHint run
+
+```
+npm test
+```
+
 ## Todos
 - [x] Add better description to README
-- [ ] Publish package to npm registry
-- [ ] Add installation instructions
+- [x] Publish package to npm registry
+- [x] Add installation instructions
 - [x] Add usage instructions and example
-- [ ] Add contribution instructions and test commands
+- [x] Add contribution instructions and test commands
 - [ ] Add end to end testing for `gcj()` function
