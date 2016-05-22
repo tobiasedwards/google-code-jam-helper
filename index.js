@@ -28,7 +28,6 @@ var gcj = function (solution, options, done) {
       options.output.write(output);
     }
 
-    options.output.close();
     if (done !== null) done();
   });
 };
