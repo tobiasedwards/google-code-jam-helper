@@ -86,6 +86,9 @@ The `GcjInput` class provides a simple way to access the data given as input for
 `getInt` returns a single int from the current line.
 It expects that the line contains nothing but the int.
 
+#### `GcjInput#getString()`
+`getString` returns the current line.
+
 #### `GcjInput#getIntArray()`
 `getIntArray` returns an array of integers that appear on the current line.
 The line is expected to contain 1 or more ints separated by a space.
