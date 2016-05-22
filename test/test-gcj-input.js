@@ -14,6 +14,13 @@ describe('GcjInput', function () {
     });
   });
 
+  describe('#getString()', function () {
+    it('should return the current line', function () {
+      var input = new GcjInput(['Foo', 'Bar']);
+      assert.equal('Foo', input.getString());
+    });
+  });
+
   describe('#getIntArray()', function () {
     it('should return the correct array', function () {
       var input = new GcjInput(['1 12 4 8 -1 22']);
